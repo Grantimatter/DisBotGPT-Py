@@ -21,26 +21,24 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Grantimatter/DisBotGPT-Py">
+    <img src="https://labs.openai.com/s/5AVxzn2PxgBVUCCaDDk9tQh8" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">DisBotGPT-PY</h3>
 
   <p align="center">
-    project_description
+    DisBotGPT-PY is a project to bring ChatGPT conversations into discord servers!
+    Simply mention the bot in a text channel and the bot will start a new thread with a uniquely generated title! All replies to the bot in these threads will continue these threads.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Grantimatter/DisBotGPT-Py"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Grantimatter/DisBotGPT-Py/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Grantimatter/DisBotGPT-Py/issues">Request Feature</a>
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -73,57 +71,69 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+---
+![DisBotGPT-PY Screen Shot](/example.png)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+---
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* [Python 3](https://www.python.org/downloads/)
 
 ### Installation
+1. Clone the repository by running the following command:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+    `git clone https://github.com/Grantimatter/DisBotGPT-Py.git`
+
+2. Navigate to the project directory:
+
+    `cd DisBotGPT-Py`
+
+3. Install the required dependencies:
+
+    `pip install -r requirements.txt`
+
+4. Run `main.py`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
+
+## Bot setup
+Setting up a Discord Bot
+
+1. Create a Discord account, if you don't already have one.
+
+2. Go to the [Discord Developers Portal](https://discord.com/developers/docs/game-sdk/applications) and sign in with your Discord account.
+
+3. Click on the "New Application" button.
+
+4. Enter a name for your bot and click on the "Create" button.
+
+5. Go to the "Bot" tab and click on the "Add Bot" button.
+
+6. Click on the "Copy" button next to the "Token" field to copy the bot token. This will be used to authenticate the bot with Discord.
+
+7. Go to the "OAuth2->Url Generator" tab and select the "bot" scope.
+
+8. Under "Bot Permissions", select at least these permissions:
+   - Read Messages/View Channels
+   - Send Messages
+   - Create Public Threads
+   - Read Message History
+
+9.  Click on the "Copy" button next to the generated OAuth2 URL and paste it into your browser to add the bot to your Discord server.
+
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+---
+- On first run, the bot will ask for configuration details to get setup.
+- Once the configuration is complete and the bot successfully logs in, you should see the bot come online in your discord server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,13 +141,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
+---
+- [x] Bot will create new conversations (threads) when mentioned with ChatGPT-generated titles
+- [x] Bot will remember and continue conversations from each thread
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Grantimatter/DisBotGPT-Py/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +153,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 <!-- CONTRIBUTING -->
 ## Contributing
-
+---
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -163,7 +171,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 ## License
-
+---
 Distributed under the MIT License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -172,10 +180,10 @@ Distributed under the MIT License.
 
 <!-- CONTACT -->
 ## Contact
+---
+Your Name - [@grantimattter](https://twitter.com/grantimattter) - wiswellgrant@gmail.com
 
-Your Name - [@grantimattter](https://twitter.com/grantimattter) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Grantimatter/DisBotGPT-Py](https://github.com/Grantimatter/DisBotGPT-Py)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +191,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
+---
 * [PyCord](https://docs.pycord.dev/en/stable/)
 * [PyChatGPT](https://github.com/rawandahmad698/PyChatGPT)
 
