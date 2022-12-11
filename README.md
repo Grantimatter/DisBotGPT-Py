@@ -68,7 +68,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
----
+
+DisBotGPT-PY is a project to bring ChatGPT conversations into discord servers! Simply mention the bot in a text channel and the bot will start a new thread with a uniquely generated title! All replies to the bot in these threads will continue these threads.
+
 ![DisBotGPT-PY Screen Shot](/example.png)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +78,7 @@
 
 <!-- GETTING STARTED -->
 ## Getting Started
----
+
 ### Prerequisites
 
 * [Python 3](https://www.python.org/downloads/)
@@ -128,7 +130,7 @@ Setting up a Discord Bot
 9.  Click on the "Copy" button next to the generated OAuth2 URL and paste it into your browser to add the bot to your Discord server.
 
 ## Usage
----
+
 - On first run, the bot will ask for configuration details to get setup.
 - Once the configuration is complete and the bot successfully logs in, you should see the bot come online in your discord server.
 
@@ -138,7 +140,7 @@ Setting up a Discord Bot
 
 <!-- ROADMAP -->
 ## Roadmap
----
+
 - [x] Bot will create new conversations (threads) when mentioned with ChatGPT-generated titles
 - [x] Bot will remember and continue conversations from each thread
 
@@ -150,7 +152,7 @@ See the [open issues](https://github.com/Grantimatter/DisBotGPT-Py/issues) for a
 
 <!-- CONTRIBUTING -->
 ## Contributing
----
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -168,7 +170,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 ## License
----
+
 Distributed under the MIT License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -177,7 +179,7 @@ Distributed under the MIT License.
 
 <!-- CONTACT -->
 ## Contact
----
+
 Grant Wiswell - [@grantimattter](https://twitter.com/grantimattter) - wiswellgrant@gmail.com
 
 Project Link: [https://github.com/Grantimatter/DisBotGPT-Py](https://github.com/Grantimatter/DisBotGPT-Py)
@@ -188,7 +190,7 @@ Project Link: [https://github.com/Grantimatter/DisBotGPT-Py](https://github.com/
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
----
+
 * [PyCord](https://docs.pycord.dev/en/stable/)
 * [PyChatGPT](https://github.com/rawandahmad698/PyChatGPT)
 
