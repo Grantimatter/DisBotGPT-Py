@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Grantimatter/DisBotGPT-Py">
-    <img src="https://labs.openai.com/s/5AVxzn2PxgBVUCCaDDk9tQh8" alt="Logo" width="80" height="80">
+    <img src="./logo.png" alt="Logo" width="160" height="160" style="border-radius:2rem">
   </a>
 
 <h3 align="center">DisBotGPT-PY</h3>
@@ -47,9 +47,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -181,7 +178,7 @@ Distributed under the MIT License.
 <!-- CONTACT -->
 ## Contact
 ---
-Your Name - [@grantimattter](https://twitter.com/grantimattter) - wiswellgrant@gmail.com
+Grant Wiswell - [@grantimattter](https://twitter.com/grantimattter) - wiswellgrant@gmail.com
 
 Project Link: [https://github.com/Grantimatter/DisBotGPT-Py](https://github.com/Grantimatter/DisBotGPT-Py)
 
@@ -199,3 +196,18 @@ Project Link: [https://github.com/Grantimatter/DisBotGPT-Py](https://github.com/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Grantimatter/DisBotGPT-Py.svg?style=for-the-badge
+[contributors-url]: https://github.com/Grantimatter/DisBotGPT-Py/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Grantimatter/DisBotGPT-Py.svg?style=for-the-badge
+[forks-url]: https://github.com/Grantimatter/DisBotGPT-Py/network/members
+[stars-shield]: https://img.shields.io/github/stars/Grantimatter/DisBotGPT-Py.svg?style=for-the-badge
+[stars-url]: https://github.com/Grantimatter/DisBotGPT-Py/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Grantimatter/DisBotGPT-Py.svg?style=for-the-badge
+[issues-url]: https://github.com/Grantimatter/DisBotGPT-Py/issues
+[license-shield]: https://img.shields.io/github/license/Grantimatter/DisBotGPT-Py.svg?style=for-the-badge
+[license-url]: https://github.com/Grantimatter/DisBotGPT-Py/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_username
+[product-screenshot]: images/screenshot.png
