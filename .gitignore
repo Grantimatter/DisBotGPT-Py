@@ -1,0 +1,10 @@
+/.vscode/
+/config.ini
+/config.json
+/identifier.sqlite
+/src/classes/text_to_speech.py
+/src/classes/old.py
+/venv/
+/src/classes/test.py
+/src/config.ini
+/src/database.db

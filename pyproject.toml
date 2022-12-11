@@ -1,0 +1,18 @@
+[project]
+name = "DisBotGPT-Py_Grantimatter"
+version = "0.1.0"
+authors = [
+  { name="Grant Wiswell", email="wiswellgrant@gmail.com" },
+]
+description = "A Discord bot that uses ChatGPT to generate responses in text channels."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/grantimatter/DisBotGPT-Py"
+"Bug Tracker" = "https://github.com/grantimatter/DisBotGPT-Py/issues"
