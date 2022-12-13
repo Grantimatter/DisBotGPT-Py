@@ -24,3 +24,4 @@ src/classes/__pycache__/bot.cpython-310.pyc
 src/classes/__pycache__/configuration.cpython-310.pyc
 src/classes/__pycache__/database.cpython-310.pyc
 src/classes/__pycache__/messaging.cpython-310.pyc
+database.db
